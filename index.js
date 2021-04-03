@@ -19,23 +19,43 @@ const promptUser = () => {
     return inquirer.prompt([
         {
             type: 'input',
-            name: 'date',
-            message: "Please enter today's date (MM/DD/YYYY)",
+            name: 'headline',
+            message: "Your-Project-Title",
         },
         {
             type: 'input',
-            name: 'name',
-            message: 'What is your name?',
+            name: 'description',
+            message: "Descripe your project",
         },
         {
             type: 'input',
-            name: 'location',
-            message: 'Where are you from?',
+            name: 'badges',
+            message: "Badges: Add badge images that convey metadata, such as whether or not all the tests are passing for the project.",
         },
         {
             type: 'input',
-            name: 'scope',
-            message: 'Please outlined the scope of the project:?',
+            name: 'license',
+            message: "License: Let other developers know what they can and cannot do with your project.",
+        },
+        {
+            type: 'input',
+            name: 'installation',
+            message: "Installation: Outline installation requirements for this project",
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'Usage: Reference user examples liberally, and show the expected output if you can.',
+        },
+        {
+            type: 'input',
+            name: 'contributing',
+            message: 'Contributing: I am open to contributions. Tell people what your requirements are for accepting them.',
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'Tests: Tell what testing was done to the app for functionality and validations.',
         },
         {
             type: "checkbox",
@@ -56,108 +76,51 @@ const promptUser = () => {
 const generateREADME = (answers) =>
 
 `
-# 09 Node.js Homework: Professional README Generator
+# ${answers.headline}
 
-## Table of Content
+## Table of Contents
+- [Description](#description)
+- [Badges](#badges)
+- [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Coding requriements](#languages)
+- [Github reference](#github)
 
-[Installation](#installation)
-[License](#license)
 
 
-Date: ${answers.date}
-Developer Name: ${answers.name}
+## Description
 
-Location: ${answers.location}
+🔍 ${answers.description}
 
-Please outlined the scope of the project: ${answers.scope}
-
-Please check all languages you applied:  ${answers.languages.join(", ")}
-
-GitHub username is ${answers.github}
-
-h
-
-## License
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
----
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 ## Badges
-
+🏆 ${answers.badges}
 ![github license](https://img.shields.io/badge/license-MIT-blue.svg);
 
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-
+## License
+${answers.license}
 
 ## Installation
+💾 ${answers.installation}
 
-Follow these instructions 
+## Usage
+💻 ${answers.usage}
 
-What is the project name: ${answers.scope}
+## Contributing
+👪 ${answers.contributing}
 
+## Tests
+✏️ ${answers.tests}
+
+## Coding requirements
+${answers.languages.join(", ")}
+
+## Github reference 
+${answers.github}
+
+---
 
 
 `;
@@ -174,6 +137,15 @@ const init = () => {
 init();
 
 
+// // Bonus using writeFileAsync as a promise
+// const init = () => {
+//     promptUser()
+//       .then((answers) => writeFileAsync('output/README.md', generateREADME(answers)))
+//       .then(() => console.log('Successfully wrote README.md'))
+//       .catch((err) => console.error(err));
+//   };
+  
+//   init();
 
 
 

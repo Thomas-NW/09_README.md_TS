@@ -1,105 +1,48 @@
 
-# 09 Node.js Homework: Professional README Generator
+# tt
 
-## Table of Content
+## Table of Contents
+- [Description](#description)
+- [Badges](#badges)
+- [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Coding requriements](#languages)
+- [Github reference](#github)
 
-[Installation](#installation)
-[License](#license)
 
 
-Date: 4
-Developer Name: 4
+## Description
 
-Location: 4
+🔍 tt
 
-Please outlined the scope of the project: 4
-
-Please check all languages you applied:  HTML 5.0, CSS, JavaScript, jQuery
-
-GitHub username is 3
-
-h
-
-## License
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
----
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 ## Badges
-
+🏆 tt
 ![github license](https://img.shields.io/badge/license-MIT-blue.svg);
 
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-h
-
-
+## License
+tt
 
 ## Installation
+💾 tt
 
-Follow these instructions 
+## Usage
+💻 tt
 
-What is the project name: 4
+## Contributing
+👪 tt
 
+## Tests
+✏️ tt
+
+## Coding requirements
+HTML 5.0, CSS, JavaScript, jQuery
+
+## Github reference 
+tt
+
+---
 
 

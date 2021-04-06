@@ -25,30 +25,30 @@
 This App is not licensed and does doe include third party applications that require registrations. See also section Coding requirements.
 
 ## Installation
-💾 This generator can be applied to any project to generate a professional and high-quality README.md file.
+💾 No requirements apply
 
 
 ## Usage
-💻 This generator can be applied to any project to generate a professional and high-quality README.md file.
+💻 Not applicable
 
 
 ## Contributing
-👪 
+👪 Any suggestions to improve this generator are greatly appreciated. Please feel free to contact me at any time at thomasschmidt2021@u.northwestern.edu
 
 
 ## Tests
-✏️ 
+✏️ N/A
 
 
 ## Questions
-
+Please share any questions you may have, that either help you understanding of the generator or support the further development of it.
 
 
 ## Coding requirements
-
+HTML 5.0, JavaScript, jQuery, json
 
 ## Github reference 
-
+https://github.com/Thomas-NW/09_README.md_TS.git
 
 
 Thank you for visiting and reviewing the project. 
